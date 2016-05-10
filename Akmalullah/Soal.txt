@@ -7,7 +7,7 @@ Anda kami beri waktu untuk mengerjakan tugas ini, sampai hari Kamis, tanggal 11 
 Petunjuk:
 1. Anda harus memiliki/membuat akun di github.
 2. Anda harus kami invite dulu agar dapat akses ke repository proyeknya, dan sebelumnya Anda harus beri tahu dulu nama login Anda di github.
-3. Alamat repository proyeknya ada di https://github.com/virtunesia/recruitment-3-april-2016.
+3. Alamat repository proyeknya ada di https://github.com/virtunesia/recruitment-10-april-2016.
 4. Anda harus mempelajari/menguasai sistem aplikasi git (dalam hal ini adalah github).
 5. Anda boleh menggunakan git client apa pun untuk mengerjakan tugas ini (misal: GitKraken).
 6. Anda boleh menggunakan teks editor apa pun untuk mengedit file formulir.php itu.
