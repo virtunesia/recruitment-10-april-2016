@@ -1,0 +1,50 @@
+Soal Tes Praktikum 1
+
+Tugas Anda adalah membuat sebuah PHP sederhana, yang berisi formulir untuk mengisi tabel `request` pada database MySql `test`. Skrip sql untuk database tersebut ada di folder "Akmalullah/db/test.sql". Anda harus membuat formulir dan prosesnya dalam satu file PHP tersebut, dimana file itu di "Akmalullah/src/formulir.php".
+
+Anda kami beri waktu untuk mengerjakan tugas ini, sampai hari Kamis, tanggal 11 Mei 2016. Anda harus menggunakan sistem http://github.com untuk mengerjakan aplikasi ini. Semua file yang Anda butuhkan sudah ada di sana. Tugas Anda hanya harus mengedit file formulir.php tesebut, dan melakukan commit setelah selesai.
+
+Petunjuk:
+1. Anda harus memiliki/membuat akun di github.
+2. Anda harus kami invite dulu agar dapat akses ke repository proyeknya, dan sebelumnya Anda harus beri tahu dulu nama login Anda di github.
+3. Alamat repository proyeknya ada di https://github.com/virtunesia/recruitment-3-april-2016.
+4. Anda harus mempelajari/menguasai sistem aplikasi git (dalam hal ini adalah github).
+5. Anda boleh menggunakan git client apa pun untuk mengerjakan tugas ini (misal: GitKraken).
+6. Anda boleh menggunakan teks editor apa pun untuk mengedit file formulir.php itu.
+7. Anda wajib melakukan commit setelah seleai mengedit file apa pun, agar perubahan Anda segera tersimpan ke server.
+
+Soal Tes Praktikum 2
+
+Buatlah sebuah REST service dengan PHP di file rest.php yang input dan output berupa XML. File rest.php ini bertugas:
+1. Menerima input dengan format XML tertentu.
+2. Melakukan parsing atas XML masukan itu.
+3. Mengambil isi/value dari elemen <string/>.
+4. Memasukkan value tersebut ke database, sebagaimana tugas ke-1.
+5. Memberikan output dengan format XML tertentu.
+
+Adapun format XML input adalah sebagai berikut:
+
+<root>
+	<string>TEKS</string>
+</root>
+
+Dalam contoh di atas, maka teks "TEKS" akan dimasukkan ke table request, sebagaimana yang sudah dikerjakan pada tugas ke-1 lalu.
+
+Ada pun format XML output adalah statis (tetap, tidak bergantung data input), selalu sebagai berikut:
+
+<root>
+	<result>OK</result>
+</root>
+
+Sebagai bantuan, Anda boleh menggunakan REST client di browser, untuk mempermudah pengujian rest.php yang Anda buat itu. Sebagai contoh, REST client di browser Firefox sebagai addon yang bisa digunakan adalah: https://addons.mozilla.org/en-US/firefox/addon/restclient/ atau https://addons.mozilla.org/en-US/firefox/addon/rest-easy/ atau lainnya.
+
+Sebagai sumber pembelajaran untuk REST service dengan PHP, bila dperlukan, adalah: 
+1. http://phppot.com/php/php-restful-web-service/
+2. https://www.toptal.com/php/building-rest-api-for-legacy-php-projects
+3. http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+4. http://jagocoding.com/tutorial/1178/Membangun_REST_API_dengan_PHP
+5. Dan masih banyak lagi di Google.
+
+Anda kami ijinkan berkreasi dengan pemrograman PHP apa pun, untuk membuat REST service ini. Anda boleh menggunakan PHP biasa (plain) untuk mengerjakannya, atau Anda boleh menggunakan framework PHP apa pun yang sederhana, untuk membuat REST service ini berjalan sebagaimana diharapkan.
+
+Anda kami beri waktu sampai hari Jumat tanggal 14 Mei 2016, untuk menyelesaikan tugas ini. Bila ada kesulitan atau pertanyaan, segera tanyakan ke kami.
